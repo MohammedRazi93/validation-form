@@ -128,10 +128,6 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
         width: 400px;
         padding:  5px 15px;
     }
-    body{
-        background-image: url(images/Pulsar\ NS160\ copy.png);
-       background-color: black;
-    }
   }
   
   @media (max-width: 390px) {
