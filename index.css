@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/pulsar-N150-desktop.jpg);
+}
+.container {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    background: linear-gradient(320deg, #000000f5,transparent,#ffffff24);
+    border: 1px solid rgb(255 255 255 / 20%);
+    border-radius: 20px;
+    width: 470px;
+    backdrop-filter: blur(10px);
+    padding: 15px 65px;
+    height: auto;
+    box-shadow: 13px 20px 9px 2px #00000091;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.form-control {
+    margin: 6px 0px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.form-control input {
+    border: 2px solid #e0dede;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #f11f1f;
+}
+
+.form-control.success i.fa-check-circle {
+    visibility: visible;
+    color: #2ecc71;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    visibility: visible;
+    color: #e73c3c;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #ff0000;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+.form-control i {
+    position: absolute;
+    visibility: hidden;
+    top: 36px;
+    right: 18px;
+}
+
+.form-control small {
+    position: absolute;
+    visibility: hidden;
+    top: 64px;
+    left: 0px;
+}
+
+#btn {
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    width: 100%;
+    border: 1px solid blue;
+    color: white;
+    background-size: 200% auto;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(39, 39, 228);
+  }
+
+.btn-2 {
+    background-color: blue;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+        padding: 5px 30px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .container {
+        width: 400px;
+        padding:  5px 15px;
+    }
+    body{
+        background-image: url(images/Pulsar\ NS160\ copy.png);
+       background-color: black;
+    }
+  }
+  
+  @media (max-width: 390px) {
+    .container {
+        width: 370px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .container {
+        width: 350px;
+        padding:  5px 15px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .container {
+        width: 300px;
+        padding:  5px 15px;
+    }
+  }
+
+  @media (max-width: 280px) {
+    .container {
+        width: 260px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+  }
